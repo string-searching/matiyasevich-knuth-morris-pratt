@@ -1544,17 +1544,17 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.0.1.tgz#d26729db850fa327b7cacc5522252194404226f5"
   integrity sha512-Qm9hBEBu18wt1PO2flE7LPb30BHMQt1eQgbV76YntdNk73XZGpn3izvGTYxbGgzXKgbCjiia0uxTd3aTNQrY/g==
 
-"@string-data-structure/failure-function@^0.0.1":
+"@string-data-structure/failure-function@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@string-data-structure/failure-function/-/failure-function-0.0.1.tgz#af01800b694092c05fba5e6b312e800f4a2875d4"
   integrity sha512-+RYc8PNiEN2586QT45WZgKUGqSif8Q8Vgju6PITH0cJkm7n+/LYG+ekoIj2zkOP7wSH2NnVg+2ZQAeVaSEmNIw==
 
-"@string-data-structure/longest-prefix-suffix-array@^0.0.1":
+"@string-data-structure/longest-prefix-suffix-array@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@string-data-structure/longest-prefix-suffix-array/-/longest-prefix-suffix-array-0.0.1.tgz#a388b105894f421cc447939545b7cd82b98c3d6d"
   integrity sha512-v6eZBNWV1jEJuiVnWQYoM60iatEy5FAxMznujGIex0eqw/X0aretvYxaC/aOKURLF24EJ894oua+A8swovHctQ==
 
-"@string-searching/specification@^0.4.0":
+"@string-searching/specification@0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@string-searching/specification/-/specification-0.4.0.tgz#3dae7c03dcea2b613efc9fd79901b5b273486446"
   integrity sha512-DMKktp/d2g7qsx2T36QB/HlBx1JSWC7xaJuymzOkFryh0FfScElA+mMgQdynzHPTA4pHsEAydlYp2/I7iBRjBA==
