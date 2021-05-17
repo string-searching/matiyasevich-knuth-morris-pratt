@@ -67,7 +67,7 @@
     "@babel/core": "7.14.2",
     "@babel/preset-env": "7.14.2",
     "@babel/register": "7.13.16",
-    "@commitlint/cli": "12.1.1",
+    "@commitlint/cli": "12.1.4",
     "@js-library/commitlint-config": "0.0.4",
     "@string-data-structure/failure-function": "^0.0.1",
     "@string-data-structure/longest-prefix-suffix-array": "^0.0.1",
