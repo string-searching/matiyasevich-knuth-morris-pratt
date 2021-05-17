@@ -1354,10 +1354,10 @@
   resolved "https://registry.yarnpkg.com/@string-data-structure/longest-prefix-suffix-array/-/longest-prefix-suffix-array-0.0.1.tgz#a388b105894f421cc447939545b7cd82b98c3d6d"
   integrity sha512-v6eZBNWV1jEJuiVnWQYoM60iatEy5FAxMznujGIex0eqw/X0aretvYxaC/aOKURLF24EJ894oua+A8swovHctQ==
 
-"@string-searching/specification@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@string-searching/specification/-/specification-0.3.0.tgz#37123ce1303068d724a740e9ecb9fc396110f245"
-  integrity sha512-25d2gO6VBtD4BPXp627Q0JSzg/p92xZuq5WuVaAq7NjYS2lRxwD653PsRJ1jesjTaEfkCvXjBzmafONKi78fxQ==
+"@string-searching/specification@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@string-searching/specification/-/specification-0.4.0.tgz#3dae7c03dcea2b613efc9fd79901b5b273486446"
+  integrity sha512-DMKktp/d2g7qsx2T36QB/HlBx1JSWC7xaJuymzOkFryh0FfScElA+mMgQdynzHPTA4pHsEAydlYp2/I7iBRjBA==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
