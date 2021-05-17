@@ -13,7 +13,7 @@ import 'regenerator-runtime/runtime.js' ;
 
 Then, import the library where needed
 ```js
-const matiyasevichKnuthMorrisPratt = require( '@string-searching/matiyasevich-knuth-morris-pratt' ) ;
+const {lessCode, fastScan} = require( '@string-searching/matiyasevich-knuth-morris-pratt' ) ;
 // or
-import * as matiyasevichKnuthMorrisPratt from '@string-searching/matiyasevich-knuth-morris-pratt' ;
+import {lessCode, fastScan} from '@string-searching/matiyasevich-knuth-morris-pratt' ;
 ```

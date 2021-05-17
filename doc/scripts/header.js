@@ -17,7 +17,8 @@ domReady(() => {
 	header.insertBefore(projectname, header.firstChild);
 
 	const testlink = document.querySelector('header > a[data-ice="testLink"]');
-	testlink.href = 'https://app.codecov.io/gh/string-searching/matiyasevich-knuth-morris-pratt';
+	testlink.href =
+		'https://app.codecov.io/gh/string-searching/matiyasevich-knuth-morris-pratt';
 	testlink.target = '_BLANK';
 
 	const searchBox = document.querySelector('.search-box');
