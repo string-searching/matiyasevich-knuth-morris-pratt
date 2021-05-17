@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | @string-searching/matiyasevich-knuth-morris-pratt</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Knuth-Morris-Pratt algorithm for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@string-searching/matiyasevich-knuth-morris-pratt"><meta property="twitter:description" content="Knuth-Morris-Pratt algorithm for JavaScript"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/string-searching/matiyasevich-knuth-morris-pratt"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fastScan">fastScan</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lessCode">lessCode</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-roll-of-paper---a-href--https---string-searching-github-io-matiyasevich-knuth-morris-pratt---string-searching-matiyasevich-knuth-morris-pratt--a-">:roll_of_paper: <a href="https://string-searching.github.io/matiyasevich-knuth-morris-pratt">@string-searching/matiyasevich-knuth-morris-pratt</a></h1><p>Knuth-Morris-Pratt algorithm for JavaScript.
+See <a href="https://string-searching.github.io/matiyasevich-knuth-morris-pratt/index.html">docs</a>.</p>
+<blockquote>
+<p>:warning: Depending on your environment, the code may require
+<code>regeneratorRuntime</code> to be defined, for instance by importing
+<a href="https://www.npmjs.com/package/regenerator-runtime">regenerator-runtime/runtime</a>.</p>
+</blockquote>
+<pre><code class="lang-js"><code class="source-code prettyprint">// Compile a fast string/array searching function as follows.
+
+import {build as _failureFunction} from &apos;@string-data-structure/failure-function&apos;;
+const ff = (p, pi, pj) =&gt; {
+    const next = new Array(pj - pi + 1);
+    _failureFunction(p, pi, pj, next, 0);
+    return next;
+};
+
+import {fastScan} from &apos;@string-searching/matiyasevich-knuth-morris-pratt&apos;;
+const _findAll = (s, si, sj, p, pi, pj) =&gt; {
+    assert(sj - si &gt;= 2); // NOTE Use different methods if your
+    assert(pj - pi &gt;= 2); // inputs are that small.
+    const t = ff(p, pi, pj);
+    return fastScan(p, pi, pj, t, 0, s, si, sj);
+};
+
+const findAll = (text, pattern) =&gt;
+    _findAll(text, 0, text.length, pattern, 0, pattern.length);
+
+for (const i of findAll(&apos;abracadabra&apos;, &apos;abra&apos;)) ... // yields 0 7
+for (const i of findAll([0, 1, 1, 0, 1, 0, 0, 0], [0, 0])) ... // yields 5 6
+
+// There is also an implementation that has a lower code footprint and handles
+// all input sizes &gt;= 1. This implementation is a constant factor slower but
+// has the same worst-case linear-time guarantee.
+import {lessCode} from &apos;@string-searching/matiyasevich-knuth-morris-pratt&apos;;</code>
+</code></pre>
+<p><a href="https://raw.githubusercontent.com/string-searching/matiyasevich-knuth-morris-pratt/main/LICENSE"><img src="https://img.shields.io/github/license/string-searching/matiyasevich-knuth-morris-pratt.svg" alt="License"></a>
+<a href="https://www.npmjs.org/package/@string-searching/matiyasevich-knuth-morris-pratt"><img src="https://img.shields.io/npm/v/@string-searching/matiyasevich-knuth-morris-pratt.svg" alt="Version"></a>
+<a href="https://github.com/string-searching/matiyasevich-knuth-morris-pratt/actions/workflows/ci:test.yml?query=branch:main"><img src="https://img.shields.io/github/workflow/status/string-searching/matiyasevich-knuth-morris-pratt/ci:test?event=push&amp;label=tests" alt="Tests"></a>
+<a href="https://david-dm.org/string-searching/matiyasevich-knuth-morris-pratt"><img src="https://img.shields.io/david/string-searching/matiyasevich-knuth-morris-pratt.svg" alt="Dependencies"></a>
+<a href="https://david-dm.org/string-searching/matiyasevich-knuth-morris-pratt?type=dev"><img src="https://img.shields.io/david/dev/string-searching/matiyasevich-knuth-morris-pratt.svg" alt="Dev dependencies"></a>
+<a href="https://github.com/string-searching/matiyasevich-knuth-morris-pratt/issues"><img src="https://img.shields.io/github/issues/string-searching/matiyasevich-knuth-morris-pratt.svg" alt="GitHub issues"></a>
+<a href="https://www.npmjs.org/package/@string-searching/matiyasevich-knuth-morris-pratt"><img src="https://img.shields.io/npm/dm/@string-searching/matiyasevich-knuth-morris-pratt.svg" alt="Downloads"></a></p>
+<p><a href="https://codeclimate.com/github/string-searching/matiyasevich-knuth-morris-pratt/issues"><img src="https://img.shields.io/codeclimate/issues/string-searching/matiyasevich-knuth-morris-pratt.svg" alt="Code issues"></a>
+<a href="https://codeclimate.com/github/string-searching/matiyasevich-knuth-morris-pratt/trends/churn"><img src="https://img.shields.io/codeclimate/maintainability/string-searching/matiyasevich-knuth-morris-pratt.svg" alt="Code maintainability"></a>
+<a href="https://codecov.io/gh/string-searching/matiyasevich-knuth-morris-pratt"><img src="https://img.shields.io/codecov/c/gh/string-searching/matiyasevich-knuth-morris-pratt/main.svg" alt="Code coverage (cov)"></a>
+<a href="https://codeclimate.com/github/string-searching/matiyasevich-knuth-morris-pratt/trends/technical_debt"><img src="https://img.shields.io/codeclimate/tech-debt/string-searching/matiyasevich-knuth-morris-pratt.svg" alt="Code technical debt"></a>
+<a href="https://string-searching.github.io/matiyasevich-knuth-morris-pratt/source.html"><img src="https://string-searching.github.io/matiyasevich-knuth-morris-pratt/badge.svg" alt="Documentation"></a>
+<a href="https://bundlephobia.com/result?p=@string-searching/matiyasevich-knuth-morris-pratt"><img src="https://img.shields.io/bundlephobia/minzip/@string-searching/matiyasevich-knuth-morris-pratt" alt="Package size"></a></p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
