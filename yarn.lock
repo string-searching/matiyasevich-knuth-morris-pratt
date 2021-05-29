@@ -1624,10 +1624,10 @@
   resolved "https://registry.yarnpkg.com/@string-data-structure/failure-function/-/failure-function-0.0.2.tgz#53f4868b911f5ad68a6226a5bbfc1839ca34f884"
   integrity sha512-1QCANo1htX4x9upnuLu80DmFxq6b0amJyYVHoGCLPlduzsYDyjQvh4xBRe8T20FT/M1CfIlKtE33/GpRLsc67A==
 
-"@string-data-structure/longest-prefix-suffix-array@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@string-data-structure/longest-prefix-suffix-array/-/longest-prefix-suffix-array-0.0.1.tgz#a388b105894f421cc447939545b7cd82b98c3d6d"
-  integrity sha512-v6eZBNWV1jEJuiVnWQYoM60iatEy5FAxMznujGIex0eqw/X0aretvYxaC/aOKURLF24EJ894oua+A8swovHctQ==
+"@string-data-structure/longest-prefix-suffix-array@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@string-data-structure/longest-prefix-suffix-array/-/longest-prefix-suffix-array-0.0.2.tgz#2ffce4649105633e920bf37f81195c1abae7d6e0"
+  integrity sha512-mxbg0PPrHNYiORBYBm9n8PjcVlQkQ39a9Q8sugAEV86D849LRIzi1PxQ3p1LPotLjeUP8i2ooYHQnkPUThXnfg==
 
 "@string-searching/specification@0.4.0":
   version "0.4.0"
