@@ -1280,20 +1280,20 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.0.1.tgz#d26729db850fa327b7cacc5522252194404226f5"
   integrity sha512-Qm9hBEBu18wt1PO2flE7LPb30BHMQt1eQgbV76YntdNk73XZGpn3izvGTYxbGgzXKgbCjiia0uxTd3aTNQrY/g==
 
-"@string-data-structure/failure-function@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@string-data-structure/failure-function/-/failure-function-0.0.2.tgz#53f4868b911f5ad68a6226a5bbfc1839ca34f884"
-  integrity sha512-1QCANo1htX4x9upnuLu80DmFxq6b0amJyYVHoGCLPlduzsYDyjQvh4xBRe8T20FT/M1CfIlKtE33/GpRLsc67A==
+"@string-data-structure/failure-function@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@string-data-structure/failure-function/-/failure-function-1.0.0.tgz#c520b31840a51c12c6dcbd207793f3f3dac174ba"
+  integrity sha512-vNKp7VdAi/aPK9YYzHu9/B6WW5tI8LGd9QIOLQzX2QNRBP+ClL6ufddRjHk8HqLvBjrb5gpBsFCakKppcDqzUg==
 
-"@string-data-structure/longest-prefix-suffix-array@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@string-data-structure/longest-prefix-suffix-array/-/longest-prefix-suffix-array-0.0.2.tgz#2ffce4649105633e920bf37f81195c1abae7d6e0"
-  integrity sha512-mxbg0PPrHNYiORBYBm9n8PjcVlQkQ39a9Q8sugAEV86D849LRIzi1PxQ3p1LPotLjeUP8i2ooYHQnkPUThXnfg==
+"@string-data-structure/longest-prefix-suffix-array@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@string-data-structure/longest-prefix-suffix-array/-/longest-prefix-suffix-array-1.0.0.tgz#e8b9f7de9f6a5f5b432c920284945673aa034b66"
+  integrity sha512-XhJtmTVixL3wpuxqg28MquEPS6CEmxeOwV8Hb1Oh5IUWwqSZhwzHgSrTXc2UwBPbhQCSIMkRou7nOybo1j5KxQ==
 
-"@string-searching/specification@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@string-searching/specification/-/specification-0.4.0.tgz#3dae7c03dcea2b613efc9fd79901b5b273486446"
-  integrity sha512-DMKktp/d2g7qsx2T36QB/HlBx1JSWC7xaJuymzOkFryh0FfScElA+mMgQdynzHPTA4pHsEAydlYp2/I7iBRjBA==
+"@string-searching/specification@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@string-searching/specification/-/specification-1.0.1.tgz#119a8233243a1f023c3a32c8575867b6cd2d7deb"
+  integrity sha512-5vwTkNorzTbow8tdft0yyXSzRP9LNUw/FvSado3R+HL3nmkhZCmgoCkvVENG+93cP0vJ4q+KEViWcf+rgSl7LQ==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
