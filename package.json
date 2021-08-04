@@ -1,7 +1,7 @@
 {
   "name": "@string-searching/matiyasevich-knuth-morris-pratt",
   "description": "Knuth-Morris-Pratt algorithm for JavaScript",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
   "homepage": "https://string-searching.github.io/matiyasevich-knuth-morris-pratt",
