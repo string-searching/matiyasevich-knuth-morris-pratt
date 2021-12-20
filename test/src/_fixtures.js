@@ -1,4 +1,8 @@
 import assert from 'assert';
+
+import {build as _longestPrefixSuffixArray} from '@string-data-structure/longest-prefix-suffix-array';
+
+import {build as _failureFunction} from '@string-data-structure/failure-function';
 import {lessCode, fastScan as _fastScan} from '../../src/index.js';
 
 function* scan(x, s, si, sj) {
@@ -14,8 +18,6 @@ function fastScan(p, pi, pj, t, ti, s, si, sj) {
 		? scan(p[pi], s, si, sj)
 		: _fastScan(p, pi, pj, t, ti, s, si, sj);
 }
-
-import {build as _longestPrefixSuffixArray} from '@string-data-structure/longest-prefix-suffix-array';
 
 const lpsa = (p, pi, pj) => {
 	// eslint-disable-next-line unicorn/no-new-array
@@ -33,8 +35,6 @@ export const findAllFastScanSlowBacktrack = (s, si, sj, p, pi, pj) => {
 	const t = lpsa(p, pi, pj);
 	return fastScan(p, pi, pj, t, 0, s, si, sj);
 };
-
-import {build as _failureFunction} from '@string-data-structure/failure-function';
 
 const ff = (p, pi, pj) => {
 	// eslint-disable-next-line unicorn/no-new-array
