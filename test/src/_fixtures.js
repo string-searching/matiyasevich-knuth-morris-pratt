@@ -1,8 +1,8 @@
 import assert from 'assert';
 
+import {build as _failureFunction} from '@string-data-structure/failure-function';
 import {build as _longestPrefixSuffixArray} from '@string-data-structure/longest-prefix-suffix-array';
 
-import {build as _failureFunction} from '@string-data-structure/failure-function';
 import {lessCode, fastScan as _fastScan} from '#module';
 
 function* scan(x, s, si, sj) {
