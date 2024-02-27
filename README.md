@@ -40,7 +40,7 @@ import {lessCode} from '@string-searching/matiyasevich-knuth-morris-pratt';
 
 [![License](https://img.shields.io/github/license/string-searching/matiyasevich-knuth-morris-pratt.svg)](https://raw.githubusercontent.com/string-searching/matiyasevich-knuth-morris-pratt/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@string-searching/matiyasevich-knuth-morris-pratt.svg)](https://www.npmjs.org/package/@string-searching/matiyasevich-knuth-morris-pratt)
-[![Tests](https://img.shields.io/github/workflow/status/string-searching/matiyasevich-knuth-morris-pratt/ci:cover?event=push&label=tests)](https://github.com/string-searching/matiyasevich-knuth-morris-pratt/actions/workflows/ci:cover.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/string-searching/matiyasevich-knuth-morris-pratt/ci?event=push&label=tests)](https://github.com/string-searching/matiyasevich-knuth-morris-pratt/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/string-searching/matiyasevich-knuth-morris-pratt.svg)](https://github.com/string-searching/matiyasevich-knuth-morris-pratt/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/string-searching/matiyasevich-knuth-morris-pratt.svg)](https://github.com/string-searching/matiyasevich-knuth-morris-pratt/issues)
 [![Downloads](https://img.shields.io/npm/dm/@string-searching/matiyasevich-knuth-morris-pratt.svg)](https://www.npmjs.org/package/@string-searching/matiyasevich-knuth-morris-pratt)
